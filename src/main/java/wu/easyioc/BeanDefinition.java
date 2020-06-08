@@ -1,5 +1,8 @@
 package wu.easyioc;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * 定义了 bean 的容器
  *
@@ -8,13 +11,24 @@ package wu.easyioc;
  */
 public class BeanDefinition {
 
+    @Getter
+    @Setter
     private Object bean;
 
-    public BeanDefinition(Object bean) {
-        this.bean = bean;
+    @Getter
+    @Setter
+    private Class beanClass;
+
+    @Getter
+    private String beanClassName;
+
+    public void setBeanClassName(String beanClassName) {
+        this.beanClassName = beanClassName;
+        try {
+            this.beanClass = Class.forName(beanClassName);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
-    public Object getBean() {
-        return bean;
-    }
 }
