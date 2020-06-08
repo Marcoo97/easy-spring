@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b3c6b66-0952-4ff2-b7f5-ccc7752d6afb" name="Default Changelist" comment="" />
+    <list default="true" id="6b3c6b66-0952-4ff2-b7f5-ccc7752d6afb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/wu/easyioc/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wu/easyioc/PropertyValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wu/easyioc/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wu/easyioc/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wu/easyioc/factory/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wu/easyioc/factory/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wu/easyioc/factory/AutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wu/easyioc/factory/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wu/easyioc/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wu/easyioc/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wu/easyioc/BeanFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wu/easyioc/BeanFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wu/easyioc/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wu/easyioc/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wu/easyioc/BeanDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wu/easyioc/BeanDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wu/easyioc/factory/AbstractBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wu/easyioc/factory/AbstractBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wu/easyioc/factory/AutowireCapableBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wu/easyioc/factory/AutowireCapableBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wu/easyioc/factory/BeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wu/easyioc/factory/BeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wu/easyioc/BeanFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wu/easyioc/BeanFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wu/easyioc/HelloWorldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wu/easyioc/HelloWorldService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -22,6 +49,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1d1gW6DgdBkaXvYxlURF8VNvz46" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -29,6 +57,29 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BeanFactoryTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easy-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wu.easyioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wu.easyioc" />
+      <option name="MAIN_CLASS_NAME" value="wu.easyioc.BeanFactoryTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeanFactoryTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Qwu\AppData\Roaming\Subversion</configuration>
@@ -43,5 +94,35 @@
       <workItem from="1591598042735" duration="2000" />
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1329" y="295" key="#com.intellij.ide.util.MemberChooser" timestamp="1591608328252">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1329" y="295" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1591608328252" />
+    <state width="2005" height="402" key="GridCell.Tab.0.bottom" timestamp="1591615667555">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="402" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1591615667555" />
+    <state width="2005" height="402" key="GridCell.Tab.0.center" timestamp="1591615667555">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="402" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1591615667555" />
+    <state width="2005" height="402" key="GridCell.Tab.0.left" timestamp="1591615667555">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="402" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1591615667555" />
+    <state width="2005" height="402" key="GridCell.Tab.0.right" timestamp="1591615667555">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="402" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1591615667555" />
+    <state x="681" y="259" key="run.anything.popup" timestamp="1591615380416">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1591615380416" />
+    <state x="681" y="210" width="670" height="676" key="search.everywhere.popup" timestamp="1591606519517">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="210" width="670" height="676" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1591606519517" />
   </component>
 </project>

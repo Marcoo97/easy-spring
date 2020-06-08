@@ -6,8 +6,10 @@ package wu.easyioc;
  */
 public class HelloWorldService {
 
+    String text;
+
     public void helloworld() {
-        System.out.println("hello world from bot...");
+        System.out.println(text);
     }
 
 }
