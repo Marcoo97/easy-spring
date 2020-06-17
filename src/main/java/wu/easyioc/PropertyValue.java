@@ -1,16 +1,16 @@
 package wu.easyioc;
 
-import lombok.Getter;
+import lombok.Data;
 
 /**
  * @author wmxing97
  * @date 2020/6/8 17:24
  */
+@Data
 public class PropertyValue {
 
-    @Getter
     private final String name;
-    @Getter
+
     private final Object value;
 
     public PropertyValue(String name, Object value) {

@@ -24,7 +24,9 @@ public class AutowireCapableBeanFactory extends AbstractBeanFactory {
 
     protected void applyPropertyValues(Object bean, BeanDefinition beanDefinition) throws Exception {
         for (PropertyValue propertyValue : beanDefinition.getPropertyValues().getPropertyValues()) {
+            // getDeclaredField 获取一个类的指定成员变量
             Field declaredField = bean.getClass().getDeclaredField(propertyValue.getName());
+            // 需要对 private 的成员变量进行set操作，必须setAccessible(true)
             declaredField.setAccessible(true);
             declaredField.set(bean, propertyValue.getValue());
         }

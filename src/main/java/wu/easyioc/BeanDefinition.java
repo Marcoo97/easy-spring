@@ -24,7 +24,10 @@ public class BeanDefinition {
 
     @Getter
     @Setter
-    private PropertyValues propertyValues;
+    private PropertyValues propertyValues = new PropertyValues();
+
+    public BeanDefinition() {
+    }
 
     public void setBeanClassName(String beanClassName) {
         this.beanClassName = beanClassName;
