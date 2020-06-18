@@ -1,6 +1,6 @@
-package wu.easyioc.factory;
+package wu.easyioc.beans.factory;
 
-import wu.easyioc.BeanDefinition;
+import wu.easyioc.beans.BeanDefinition;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -31,7 +31,6 @@ public abstract class AbstractBeanFactory implements BeanFactory {
         return bean;
     }
 
-    @Override
     public void registerBeanDefinition(String name, BeanDefinition beanDefinition) throws Exception {
         beanDefinitionMap.put(name, beanDefinition);
         beanDefinitionNames.add(name);

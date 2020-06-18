@@ -1,4 +1,4 @@
-package wu.easyioc;
+package wu.easyioc.beans;
 
 import lombok.Getter;
 import lombok.Setter;

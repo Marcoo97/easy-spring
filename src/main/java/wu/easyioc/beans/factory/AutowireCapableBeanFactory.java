@@ -1,8 +1,8 @@
-package wu.easyioc.factory;
+package wu.easyioc.beans.factory;
 
-import wu.easyioc.BeanDefinition;
+import wu.easyioc.beans.BeanDefinition;
 import wu.easyioc.BeanReference;
-import wu.easyioc.PropertyValue;
+import wu.easyioc.beans.PropertyValue;
 
 import java.lang.reflect.Field;
 

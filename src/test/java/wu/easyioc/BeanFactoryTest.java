@@ -1,12 +1,12 @@
 package wu.easyioc;
 
 import org.junit.Test;
-import wu.easyioc.bean.HelloWorldService;
-import wu.easyioc.factory.AbstractBeanFactory;
-import wu.easyioc.factory.AutowireCapableBeanFactory;
-import wu.easyioc.factory.BeanFactory;
-import wu.easyioc.io.ResourceLoader;
-import wu.easyioc.xml.XmlBeanDefinitionReader;
+import wu.easyioc.beans.BeanDefinition;
+import wu.easyioc.beans.bean.HelloWorldService;
+import wu.easyioc.beans.factory.AbstractBeanFactory;
+import wu.easyioc.beans.factory.AutowireCapableBeanFactory;
+import wu.easyioc.beans.io.ResourceLoader;
+import wu.easyioc.beans.xml.XmlBeanDefinitionReader;
 
 import java.util.Map;
 

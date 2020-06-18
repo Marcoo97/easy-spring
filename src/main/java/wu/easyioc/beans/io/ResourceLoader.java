@@ -1,4 +1,4 @@
-package wu.easyioc.io;
+package wu.easyioc.beans.io;
 
 import java.net.URL;
 

@@ -1,14 +1,14 @@
-package wu.easyioc.xml;
+package wu.easyioc.beans.xml;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import wu.easyioc.AbstractBeanDefinitionReader;
-import wu.easyioc.BeanDefinition;
+import wu.easyioc.beans.AbstractBeanDefinitionReader;
+import wu.easyioc.beans.BeanDefinition;
 import wu.easyioc.BeanReference;
-import wu.easyioc.PropertyValue;
-import wu.easyioc.io.ResourceLoader;
+import wu.easyioc.beans.PropertyValue;
+import wu.easyioc.beans.io.ResourceLoader;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

@@ -1,6 +1,6 @@
-package wu.easyioc;
+package wu.easyioc.beans;
 
-import wu.easyioc.io.ResourceLoader;
+import wu.easyioc.beans.io.ResourceLoader;
 
 import java.util.HashMap;
 import java.util.Map;
