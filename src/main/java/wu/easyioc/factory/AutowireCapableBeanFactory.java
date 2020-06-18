@@ -1,6 +1,7 @@
 package wu.easyioc.factory;
 
 import wu.easyioc.BeanDefinition;
+import wu.easyioc.BeanReference;
 import wu.easyioc.PropertyValue;
 
 import java.lang.reflect.Field;
@@ -14,6 +15,7 @@ public class AutowireCapableBeanFactory extends AbstractBeanFactory {
     @Override
     protected Object doCreateBean(BeanDefinition beanDefinition) throws Exception {
         Object bean = createBeanInstance(beanDefinition);
+        beanDefinition.setBean(bean);
         applyPropertyValues(bean, beanDefinition);
         return bean;
     }
@@ -28,7 +30,12 @@ public class AutowireCapableBeanFactory extends AbstractBeanFactory {
             Field declaredField = bean.getClass().getDeclaredField(propertyValue.getName());
             // 需要对 private 的成员变量进行set操作，必须setAccessible(true)
             declaredField.setAccessible(true);
-            declaredField.set(bean, propertyValue.getValue());
+            Object value = propertyValue.getValue();
+            if (value instanceof BeanReference) {
+                BeanReference beanReference = (BeanReference) value;
+                value = getBean(beanReference.getName());
+            }
+            declaredField.set(bean, value);
         }
     }
 

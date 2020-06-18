@@ -11,7 +11,6 @@ public class OutputService {
     @Setter
     private HelloWorldService helloWorldService;
 
-
     public void output(String text) {
         if (helloWorldService != null) {
             System.out.println(text);

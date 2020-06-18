@@ -13,4 +13,8 @@ public class BeanReference {
 
     private Object bean;
 
+    public BeanReference(String name) {
+        this.name = name;
+    }
+
 }
